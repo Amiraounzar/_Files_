@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+#right {
+background-color: chartreuse;
+padding: 20px;
+display: flex;
+justify-content: flex-end;
+}
+
+#left {
+background-color: cyan;
+padding: 20px;
+display: flex;
+justify-content: flex-end;
+}
+
+#center {
+background-color: crimson;
+padding: 20px;
+display: flex;
+justify-content: flex-end;
+
+}
+
+#container{
+padding: 20px;
+display: flex;
+width: 400px;
+flex-wrap: wrap;
+justify-content: center;
+}
+.items{
+border: 1px solid black;
+padding: 5px;
+width: 80px;
+
+}
+div{
+border: 1px solid black;
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Read the text in each HTML element and do what it asks
+USE ONLY FLEXBOX - Use w3schools if you don't remember property names and their values -->
+<div id="right">Please align me to the right using CSS flexbox.</div>
+
+<div id="left">Please align me to the left using CSS flexbox.</div>
+
+<div id="center">Please center me perfectly in the middle of the page, vertically and horizontally.</div>
+
+
+<!--
+USE ONLY FLEXBOX - Use w3schools if you don't remember property names and their values
+1. Give the container a border
+2. Give the container some padding like 40px
+3. Center the container horizontally only.
+4. Give all the items a border
+5. Give all the items some padding like 5px
+6. Make your items wrap to the next line
+7. Change the order for item 9 to be in place of item 3, so 1, 2, 9, 3...
+8. Add images inside each item and make the width 70 and height 70.
+9. Make all the images you just added as clickable links to take you to other sites.
+10. Make sure your links open the website in another tab and not leave the current page you are on. (Hint: There's an attribute for the a element that helps you achieve this. Search on w3schools if you don't remember or know already)
+-->
+<div id="container">
+<div class="items">1</div>
+<div class="items">2</div>
+<div class="items">9</div>
+<div class="items">3</div>
+<div class="items">4</div>
+<div class="items">5</div>
+<div class="items">6</div>
+<div class="items">7</div>
+<div class="items">8</div>
+</div>
+
+</body>
+
+</html>
